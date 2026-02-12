@@ -330,6 +330,122 @@ footer ul li {
     padding: 10px 0;
 }
 
+/* about page */
+
+#about-section1, #manifesto-section1, #volunteers-section1, #join-section1, #contact-section1 {
+    background-color: #d42c1c;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+#about-section1 h1, #manifesto-section1 h1, #volunteers-section1 h1, #join-section1 h1, #contact-section1 h1 {
+    font-size: 52px;
+}
+#about-section2, #manifesto-section2 {
+    text-align: center;
+    margin: 0 100px;
+    padding: 40px 0;
+}
+#about-section2 div, #manifesto-section2 div {
+    width: 78%;
+    margin: auto;
+}
+#about-section2 p, #manifesto-section2 p {
+    font-size: 17px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+#about-section3 {
+    display: flex;
+    color: #fff;
+    margin: 10px;
+}
+#about-section3 div {
+    padding: 25px 100px;
+}
+#about-section3 #mission {
+    background-color: #04642c;
+    width: 50%;
+}
+#about-section3 #vision {
+    background-color: #d42c1c;
+    width: 50%;
+}
+#about-section3 h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+#about-section3 p {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+#about-section4 {
+    text-align: center;
+    margin: 80px 100px;
+    padding: 40px 0;
+}
+#about-section4 div {
+    width: 78%;
+    margin: auto;
+}
+#about-section4 h2 {
+    font-size: 34px;
+    font-weight: 500;
+    color: #d42c1c;
+}
+#about-section4 p {
+    font-size: 17px;
+    line-height: 2;
+}
+#about-section5 {
+    margin: 80px 100px;
+    margin-bottom: 180px;
+}
+#about-section5 #meet {
+    margin: auto;
+    width: 80%;
+}
+#about-section5 #flex {
+    display: flex;
+    gap: 28px;
+}
+#about-section5 #flex #image {
+    width: 33%;
+}
+#about-section5 img {
+    width: 100%;
+}
+#about-section5 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #d42c1c;
+    margin-bottom: 15px;
+}
+#about-section5 #name {
+    text-align: center;
+    /* margin-top: -20px; */
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 40px;
+    background-color: #fff;
+    z-index: 99;
+}
+#about-section5 a {
+    color: #d42c1c;
+    font-size: 20px;
+    font-weight: 700;
+}
+#about-section5 p {
+    margin: 10px 0;
+}
+#about-section5 #flex section {
+    border: 1px solid #d0d2d4;
+}
+/* #about-section5 #flex section:hover img {
+    
+} */
+
 
 
 @media screen and (max-width: 600px) {
@@ -495,5 +611,60 @@ footer ul li {
     }
     footer #explore {
         width: 100%;
+    }
+
+
+
+    #about-section1, #manifesto-section1, #volunteers-section1, #join-section1, #contact-section1 {
+        padding: 120px 0;
+    }
+    #about-section1 h1, #manifesto-section1 h1, #volunteers-section1 h1, #join-section1 h1, #contact-section1 h1 {
+        font-size: 34px;
+    }
+    #about-section2, #manifesto-section2 {
+        margin: 0 5px;
+        padding: 40px 0;
+    }
+    #about-section2 div, #manifesto-section2 div {
+        width: 93%;
+        margin: auto;
+    }
+    #about-section3 {
+        flex-direction: column;
+        margin: 10px;
+    }
+    #about-section3 div {
+        padding: 25px 30px;
+    }
+    #about-section3 #mission {
+        width: 100%;
+    }
+    #about-section3 #vision {
+        width: 100%;
+    }
+    #about-section3 img {
+        width: 70%;
+        margin: auto;
+    }
+    #about-section4 {
+        margin: 20px 5px;
+        padding: 40px 0;
+    }
+    #about-section4 div {
+        width: 93%;
+    }
+    #about-section5 {
+        margin: 80px 15px;
+        margin-bottom: 120px;
+    }
+    #about-section5 #meet {
+        width: 100%;
+    }
+    #about-section5 #flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+    #about-section5 #flex #image {
+        width: 90%;
     }
 }
