@@ -13,7 +13,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 35px;  
+    padding: 0 35px;
+    background-color: #fff;
 }
 nav div {
     width: 50%;
@@ -243,12 +244,18 @@ nav #link button {
     color: #da251d;
 }
 footer {
+    background-color: #fff;
+    padding: 30px 28px;
+}
+.footer {
+    padding-top: 85px;
+}
+#footer {
     background-color: #da251d;
+    padding: 20px 0 20px 45px;
     color: #fff;
     display: flex;
     justify-content: flex-start;
-    padding: 35px 0 35px 45px;
-    margin: 28px;
 }
 footer #first {
     width: 31.5%;
@@ -330,15 +337,15 @@ footer ul li {
     padding: 10px 0;
 }
 
-/* about page */
+/* About Page */
 
-#about-section1, #manifesto-section1, #volunteers-section1, #join-section1, #contact-section1 {
+#about-section1, #manifesto-section1, #volunteers-section1, #join-section1, #contact-section1, #donate-section1 {
     background-color: #d42c1c;
     color: #fff;
     text-align: center;
     padding: 50px 0;
 }
-#about-section1 h1, #manifesto-section1 h1, #volunteers-section1 h1, #join-section1 h1, #contact-section1 h1 {
+#about-section1 h1, #manifesto-section1 h1, #volunteers-section1 h1, #join-section1 h1, #contact-section1 h1, #donate-section1 h1 {
     font-size: 52px;
 }
 #about-section2, #manifesto-section2 {
@@ -424,7 +431,6 @@ footer ul li {
 }
 #about-section5 #name {
     text-align: center;
-    /* margin-top: -20px; */
     margin-right: 20px;
     margin-left: 20px;
     padding: 40px;
@@ -445,6 +451,516 @@ footer ul li {
 /* #about-section5 #flex section:hover img {
     
 } */
+
+
+
+/* Manifesto Page */
+
+#manifesto-section3 {
+    display: flex;
+    gap: 55px;
+    padding: 20px;
+    margin-top: 40px;
+}
+#manifesto-section3 #image {
+    width: 30%;
+    padding: 0 55px;
+}
+#manifesto-section3 #right {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#manifesto-section3 h2 {
+    color: #d42c1c;
+    font-size: 36px;
+    font-weight: 500;
+}
+#manifesto-section3 #content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#manifesto-section3 #content #div1, #div2, #div3, #div4 {
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+#manifesto-section3 span {
+    font-size: 17px;
+    font-weight: 700;
+}
+#manifesto-section3 p {
+    font-size: 17.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+#manifesto-section4 {
+    display: flex;
+    gap: 55px;
+    padding: 20px;
+}
+#manifesto-section4 #image {
+    width: 30%;
+    padding: 0 15px;
+}
+#manifesto-section4 #right {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#manifesto-section4 #grid #div5, #div6, #div7, #div8 {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#manifesto-section4 span {
+    font-size: 17px;
+    font-weight: 700;
+}
+#manifesto-section4 p {
+    font-size: 17.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+
+
+/* Volunteers Page */
+
+#volunteers-section2 {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+#volunteers-section2 #main {
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+#volunteers-section2 h2 {
+    color: #da251d;
+    font-size: 30px;
+    font-weight: 500;
+}
+#volunteers-section2 p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: start;
+    margin-bottom: 30px;
+}
+#volunteers-section2 #carousel {
+    height: 70vh;
+}
+#volunteers-section3 {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 100px 70px;
+}
+#volunteers-section3 #main {
+    width: 80%;
+    margin: auto;
+}
+#volunteers-section3 p {
+    font-size: 20px;
+    color: #da251d;
+}
+#volunteers-section3 h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+#volunteers-section3 form {
+    padding: 45px;
+    margin: auto;
+}
+#volunteers-section3 input {
+    width: 45%;
+    margin: 10px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 15px;
+    line-height: 28.5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#volunteers-section3 textarea {
+    width: 94%;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 20px;
+    line-height: 28.5px;
+    height: 17.5vh;
+    max-height: 17.5vh;
+}
+#volunteers-section3 button {
+    background-color: #cd2122;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px 40px;
+    margin: 14px;
+    border: none;
+    outline: none;
+    cursor: inherit;
+}
+#volunteers-section4 {
+    text-align: center;
+    padding: 117px 100px;
+    color: #fff;
+}
+#volunteers-section4 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+#volunteers-section4 h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+#volunteers-section4 a {
+    background-color: #da251c;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#volunteers-section4 a:hover {
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+
+
+/* Join Page */
+
+#join-section2 {
+    text-align: center;
+    padding: 100px;
+}
+#join-section2 div {
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+#join-section2 h2 {
+    color: #da251d;
+    font-size: 30px;
+    font-weight: 500;
+}
+#join-section2 p {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+#join-section3 {
+    background-image: url(./images/imgi_9_7bca64_26c5b249684747cfb9017d1671ceb0ddmv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 85px 90px;
+}
+#join-section3 div {
+    width: 80%;
+    margin: auto;
+    padding: 15px 50px 25px;
+    background-color: #fff;
+}
+#join-section3 h2 {
+    color: #da251d;
+    font-size: 30px;
+    font-weight: 500;
+}
+#join-section3 p {
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 10px;
+}
+#join-section3 form {
+    width: 65%;
+    margin: auto;
+}
+#join-section3 form div {
+    padding: 10px;
+    width: 100%;
+}
+#join-section3 form label {
+    font-size: 12px;
+    color: #7a7a7a;
+    cursor: pointer;
+}
+#join-section3 form sup {
+    color: #d42c1c;
+}
+#join-section3 form input, select {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+    padding: 12px 10px;
+    font-size: 13px;
+    color: #7a7a7a;
+}
+#join-section3 form button {
+    width: 97%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #da251d;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px 10px;
+}
+
+
+/* Contact Page */
+
+#contact-section2 {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 100px 0;
+}
+#contact-section2 #main {
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+#contact-section2 p {
+    font-size: 18px;
+    line-height: 2;
+    padding-bottom: 15px;
+}
+#contact-section3 {
+    display: flex;
+    /* height: 60vh; */
+    padding-bottom: 45px;
+    background-color: white;
+}
+#contact-section3 #form {
+    width: 66.5%;
+    padding: 30px 20px 0;
+    color: #fff;
+    background-color: #cd2122;
+    text-align: center;
+}
+#contact-section3 h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+#contact-section3 #image {
+    width: 33.5%;
+}
+#contact-section3 #image img {
+    width: 100%;
+}
+#contact-section3 form {
+    width: 80%;
+    padding: 35px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#contact-section3 label {
+    font-size: 12px;
+    cursor: pointer;
+}
+#contact-section3 #input {
+    width: 49.3%;
+    text-align: start;
+}
+#contact-section3 input {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#contact-section3 #text {
+    width: 100%;
+    text-align: start;
+}
+#contact-section3 textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    outline: none;
+    padding: 20px;
+    line-height: 28.5px;
+}
+#contact-section3 form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #04642c;
+    color: #fff;
+    font-size: 15px;
+}
+#contact-section4 {
+    padding: 100px;
+    color: #fff;
+    margin: 20px 0;
+}
+#contact-section4 #main {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#contact-section4 #main div {
+    width: 33%;
+    padding: 20px;
+}
+#contact-section4 h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+#contact-section4 p {
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#contact-section4 a img {
+    width: 12%;
+    border: 1px solid #529f72;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+/* Donate Page */
+
+#donate-section2 {
+    text-align: center;
+    padding: 30px 100px 20px;
+    background-color: #fff;
+}
+#donate-section2 div {
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+#donate-section2 h2 {
+    color: #da251d;
+    font-size: 30px;
+    font-weight: 500;
+}
+#donate-section2 p {
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 15px;
+}
+#donate-section3 {
+    display: flex;
+    height: fit-content;
+    padding-bottom: 45px;
+    background-color: white;
+}
+#donate-section3 #form {
+    width: 66.5%;
+    padding: 100px;
+    background-color: #cd2122;
+    text-align: center;
+    height: 70vh;
+}
+#donate-section3 h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #df1313;
+}
+#donate-section3 #image {
+    width: 33.5%;
+}
+#donate-section3 #image img {
+    width: 100%;
+    height: 70vh;
+}
+#donate-section3 form {
+    width: 60%;
+    background-color: #fff;
+    padding: 35px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#donate-section3 label {
+    font-size: 12px;
+    color: #7a7a7a;
+    cursor: pointer;
+}
+#donate-section3 sup {
+    color: #d42c1c;
+}
+#donate-section3 div {
+    width: 100%;
+    text-align: start;
+}
+#donate-section3 select {
+    width: 100%;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #000;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#donate-section3 form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #04642c;
+    color: #fff;
+    font-size: 15px;
+}
+#donate-section4 {
+    padding: 100px;
+    color: #fff;
+    margin: 20px 0;
+}
+#donate-section4 #main {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#donate-section4 #main div {
+    width: 33%;
+    padding: 20px;
+}
+#donate-section4 h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+#donate-section4 p {
+    font-size: 17px;
+    line-height: 2;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#donate-section4 a img {
+    width: 12%;
+    border: 1px solid #529f72;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
 
 
 
@@ -551,10 +1067,16 @@ footer ul li {
         text-align: start;
     }
     footer {
+        padding: 28px;
+        background-color: #fff;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    #footer {
         flex-direction: column;
         justify-content: flex-start;
         padding: 30px 0 110px;
-        margin: 28px;
     }
     footer #first {
         width: 100%;
@@ -589,9 +1111,10 @@ footer ul li {
         padding: 60px 25px;
     }
     footer #join p {
-        width: 76%;
+        width: 74%;
         text-align: center;
         margin: auto;
+        margin-top: 20px;
     }
     footer form{
         margin-bottom: 30px;
@@ -622,13 +1145,15 @@ footer ul li {
         font-size: 34px;
     }
     #about-section2, #manifesto-section2 {
-        margin: 0 5px;
-        padding: 40px 0;
+        margin: 0 3px;
     }
     #about-section2 div, #manifesto-section2 div {
         width: 93%;
-        margin: auto;
     }
+    #about-section2 p, #manifesto-section2 p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
     #about-section3 {
         flex-direction: column;
         margin: 10px;
@@ -666,5 +1191,114 @@ footer ul li {
     }
     #about-section5 #flex #image {
         width: 90%;
+    }
+    #manifesto-section3 {
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+        margin-top: 5px;
+    }
+    #manifesto-section3 #image {
+        width: 100%;
+        padding: 30px;
+    }
+    #manifesto-section3 #image img {
+        width: 100%;
+    }
+    #manifesto-section3 #right {
+        width: 100%;
+        margin-top: 0px;
+        padding: 20px;
+    }
+    #manifesto-section3 #content {
+        flex-direction: column;
+    }
+    #manifesto-section3 #content #div1, #div2, #div3, #div4 {
+        width: 100%;
+    }
+    #manifesto-section3 span {
+        font-size: 18px;
+    }
+    #manifesto-section3 p {
+        font-size: 20px;
+    }
+    #manifesto-section4 {
+        flex-direction: column;
+        gap: 5px;
+        padding: 5px;
+    }
+    #manifesto-section4 #image {
+        width: 100%;
+    }
+    #manifesto-section4 #right {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    #manifesto-section4 #grid #div5, #div6, #div7, #div8 {
+        width: 100%;
+        padding: 10px 25px;
+    }
+    #manifesto-section4 span {
+        font-size: 19px;
+    }
+    #manifesto-section4 p {
+        font-size: 19px;
+    }
+    #volunteers-section2 {
+        padding: 50px 15px;
+    }
+    #volunteers-section2 #main {
+        width: 100%;
+    }
+    #volunteers-section2 #carousel {
+        height: fit-content;
+    }
+    #volunteers-section3 {
+        padding: 30px 0px 70px;
+    }
+    #volunteers-section3 #main {
+        width: 100%;
+    }
+    #volunteers-section3 h2 {
+        font-size: 30px;
+    }
+    #volunteers-section3 form {
+        padding: 45px 15px;
+    }
+    #volunteers-section3 input {
+        width: 100%;
+        margin: 10px 0px;
+        padding: 20px 15px;
+    }
+    #volunteers-section3 textarea {
+        width: 100%;
+    }
+    #volunteers-section4 {
+        text-align: start;
+        padding: 130px 20px;
+    }
+    #volunteers-section4 div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+    }
+    #volunteers-section4 h2 {
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    #join-section2 {
+        padding: 90px 10px;
+    }
+    #join-section2 div {
+        width: 100%;
+        margin-top: 5px;
+    }
+    #join-section3 {
+        padding: 65px 0 90px;
+    }
+    #join-section3 div {
+        width: 100%;
+        padding: 15px 25px 25px;
     }
 }

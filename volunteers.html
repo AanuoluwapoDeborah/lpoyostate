@@ -6,8 +6,25 @@
     <link rel="icon" href="./images/imgi_4_Labour-Party-logo-AFTER-EFFECT.webp" type="image/webp">
     <title>Volunteers - Labour Party Oyo State</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
 </head>
-<body>
+<style>
+    nav a {
+        text-decoration: none;
+    }
+    nav #link button a {
+        color: #fff;
+    }
+    footer a {
+        text-decoration: none;
+        color: #fff;
+    }
+    #volunteers-section4 a {
+        text-decoration: none;
+        color: #fff;
+    }
+</style>
+<body style="background-image: url(./images/imgi_8_Group-91.png); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <nav id="desktop-nav">
         <div style="padding: 20px 40px;">
             <img src="./images/imgi_2_1728225031213-transparentThumbnail.png" alt="logo">
@@ -34,7 +51,7 @@
                 </li>
             </ul>
             <button>
-                <a href="">Donate</a>
+                <a href="./donate.html">Donate</a>
             </button>
         </div>
     </nav>
@@ -65,7 +82,7 @@
                     </li>
                 </ul>
                 <button>
-                    <a href="">Donate</a>
+                    <a href="./donate.html">Donate</a>
                 </button>
             </div> -->
             <div style="padding: 20px 40px;">
@@ -83,6 +100,73 @@
         </h1>
     </section>
 
+    <section id="volunteers-section2">
+        <div id="main">
+            <h2>Join OYOLP Volunteers</h2>
+            <p>
+                If you are passionate about getting involved in community outreach, campaign activities, or helping with events, consider signing up as a Labour Party volunteer. We rely on our volunteers to drive grassroots efforts, organize events, and spread the word about our vision for a better Oyo State.
+            </p>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button style="width: 10px; height: 10px; background-color: transparent; border: 3px solid #fff;" class="rounded-circle active" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button style="width: 10px; height: 10px; background-color: transparent; border: 3px solid #fff;" class="rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button style="width: 10px; height: 10px; background-color: transparent; border: 3px solid #fff;" class="rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button style="width: 10px; height: 10px; background-color: transparent; border: 3px solid #fff;" class="rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button style="width: 10px; height: 10px; background-color: transparent; border: 3px solid #fff;" class="rounded-circle" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div id="carousel" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/imgi_9_SAM_4527-scaled.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgi_10_BRO_1006-1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgi_11_BRO_1011-scaled.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgi_12_BRO_1003-768x513.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/imgi_13_SAM_4528-scaled.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteers-section3">
+        <div id="main">
+            <p>Become a Volunteer</p>
+            <h2>Apply & Join Us Today</h2>
+            <form action="">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="number" placeholder="Phone" required>
+                <input type="text" placeholder="Address" required>
+                <textarea name="" id="" placeholder="In what area do you wish to volunteer in"></textarea>
+                <button type="submit">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="volunteers-section4">
+        <div>
+            <h2>
+                Let's make a difference! Donate to our campaign.
+            </h2>
+            <a href="./donate.html">Discover More</a>
+        </div>
+    </section>
+
     <div id="back-to-top">
         <a href="./volunteers.html">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128" id="ArrowCircleUp">
@@ -92,8 +176,9 @@
         </a>
     </div>
 
-    <footer>
-        <div id="first">
+    <footer class="footer">
+        <div id="footer">
+            <div id="first">
             <div id="top">
                 <div id="logo">
                     <a href="">
@@ -121,48 +206,50 @@
                     <img src="./images/tiktok.svg" alt="">
                 </a>
             </div>
-        </div>
-        <div id="join">
-            <p>
-                Join us in the movement for progress, equity, and empowerment for all. Let's build a state where every voice is heard and every dream is possible.
-            </p>
-            <form action="">
-                <label for="">Enter your Email here </label>
-                <div id="mail">
-                    <input type="email" name="" id="" placeholder="Email">
-                    <button>
-                        <a href="">Send</a>
-                    </button>
-                </div>
-            </form>
-            <a style="line-height: 2;" href="">
-                © 2025. Powered and secured by Oyo State Labour Party
-            </a>
-        </div>
-        <div id="explore">
-            <div>
-                <h2>Explore</h2>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="./index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="./about.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="./manifesto.html">Manifesto</a>
-                    </li>
-                    <li>
-                        <a href="./volunteers.html">Volunteers</a>
-                    </li>
-                    <li>
-                        <a href="./contact.html">Contact Us</a>
-                    </li>
-                </ul>
+            <div id="join">
+                <p>
+                    Join us in the movement for progress, equity, and empowerment for all. Let's build a state where every voice is heard and every dream is possible.
+                </p>
+                <form action="">
+                    <label for="">Enter your Email here </label>
+                    <div id="mail">
+                        <input type="email" name="" id="" placeholder="Email">
+                        <button>
+                            <a href="">Send</a>
+                        </button>
+                    </div>
+                </form>
+                <a style="line-height: 2;" href="">
+                    © 2025. Powered and secured by Oyo State Labour Party
+                </a>
+            </div>
+            <div id="explore">
+                <div>
+                    <h2>Explore</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="./manifesto.html">Manifesto</a>
+                        </li>
+                        <li>
+                            <a href="./volunteers.html">Volunteers</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
 </body>
+<script src="./bootstrap.js"></script>
 </html>
