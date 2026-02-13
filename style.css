@@ -735,7 +735,6 @@ footer ul li {
 }
 #contact-section3 {
     display: flex;
-    /* height: 60vh; */
     padding-bottom: 45px;
     background-color: white;
 }
@@ -1300,5 +1299,77 @@ footer ul li {
     #join-section3 div {
         width: 100%;
         padding: 15px 25px 25px;
+    }
+    #contact-section2 {
+        padding: 100px 10px 0;
+    }
+    #contact-section2 #main {
+        width: 100%;
+    }
+    #contact-section3 {
+        padding-bottom: 45px;
+    }
+    #contact-section3 #form {
+        width: 100%;
+        padding: 30px 0px 0;
+    }
+    #contact-section3 #image {
+        display: none;
+    }
+    #contact-section3 #input {
+        width: 100%;
+    }
+    #contact-section4 {
+        padding: 85px 10px;
+        color: #fff;
+        margin: 20px 0;
+    }
+    #contact-section4 #main {
+        width: 100%;
+        flex-direction: column;
+    }
+    #contact-section4 #main div {
+        width: 100%;
+        padding: 5px;
+    }
+    #contact-section4 p {
+        margin-top: 15px;
+    }
+    #donate-section2 {
+        padding: 30px 10px 20px;
+    }
+    #donate-section2 div {
+        width: 100%;
+    }
+    #donate-section3 #form {
+        width: 100%;
+        padding: 35px 0;
+        height: fit-content;
+        text-align: start;
+    }
+    #donate-section3 h2 {
+        line-height: 1;
+        margin-bottom: 20px;
+    }
+    #donate-section3 #image {
+        display: none;
+    }
+    #donate-section3 form {
+        width: 55%;
+        padding: 15px;
+    }
+    #donate-section4 {
+        padding: 85px 10px;
+    }
+    #donate-section4 #main {
+        width: 100%;
+        flex-direction: column;
+    }
+    #donate-section4 #main div {
+        width: 100%;
+        padding: 5px;
+    }
+    #donate-section4 p {
+        margin-top: 15px;
     }
 }
